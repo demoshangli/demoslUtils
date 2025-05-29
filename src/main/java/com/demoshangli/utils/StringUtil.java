@@ -2,7 +2,7 @@ package com.demoshangli.utils;
 
 import java.io.UnsupportedEncodingException;
 
-public class StringUtils {
+public class StringUtil {
 
     // ========================= 空值处理 =========================
 
