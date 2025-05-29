@@ -37,13 +37,12 @@ public class DateUtil {
             if (dateStr.length() == 10) {
                 return NORMAL_DATE;
             }
-            throw new IllegalArgumentException("不支持的日期格式：" + dateStr);
         } else {
             if (dateStr.length() == 8) {
                 return COMPACT_DATE;
             }
-            throw new IllegalArgumentException("不支持的日期格式：" + dateStr);
         }
+        throw new IllegalArgumentException("不支持的日期格式：" + dateStr);
     }
 
     /**
@@ -58,13 +57,12 @@ public class DateUtil {
             if (dateTimeStr.length() == 19) {
                 return DATETIME_NORMAL;
             }
-            throw new IllegalArgumentException("不支持的日期时间格式：" + dateTimeStr);
         } else {
             if (dateTimeStr.length() == 14) {
                 return DATETIME_COMPACT;
             }
-            throw new IllegalArgumentException("不支持的日期时间格式：" + dateTimeStr);
         }
+        throw new IllegalArgumentException("不支持的日期时间格式：" + dateTimeStr);
     }
 
     /**
