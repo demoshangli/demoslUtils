@@ -34,7 +34,7 @@ import java.util.Base64;
  * 13. RC4已被主流标准废弃（RFC 7465），仅用于遗留系统兼容。
  * 14. AES-GCM模式不仅提供加密还提供数据完整性校验，推荐用于生产环境。
  */
-public class CryptoUtils {
+public class CryptoUtil {
 
     static {
         // 注册BouncyCastle作为安全提供者，用于支持各种加密算法
