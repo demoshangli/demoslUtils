@@ -72,7 +72,7 @@ public class ThreadUtil {
                 try {
                     taskConsumer.accept(data); // 处理数据
                 } catch (Exception e) {
-                    e.printStackTrace(); // 实际使用中可替换为日志记录
+                    e.printStackTrace(); // 可替换为日志记录
                 } finally {
                     latch.countDown(); // 计数器递减，表示该任务完成
                 }
@@ -99,7 +99,7 @@ public class ThreadUtil {
             try {
                 task.run();
             } catch (Exception e) {
-                e.printStackTrace(); // 实际中建议使用日志框架记录异常
+                e.printStackTrace();
             }
         };
     }
