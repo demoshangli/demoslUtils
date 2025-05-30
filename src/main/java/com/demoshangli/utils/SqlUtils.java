@@ -3,6 +3,9 @@ package com.demoshangli.utils;
 import java.lang.reflect.Field;
 import java.util.*;
 
+/**
+ * sql生成工具类 - 可以根据条件生成简易sql。
+ */
 public class SqlUtils {
 
     /**
