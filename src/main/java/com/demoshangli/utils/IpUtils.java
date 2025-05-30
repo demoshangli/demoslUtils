@@ -6,6 +6,9 @@ import java.net.*;
 import java.util.Enumeration;
 import java.util.regex.Pattern;
 
+/**
+ * Ip工具类 - 提供简易IP操作。
+ */
 public class IpUtils {
 
     // 私有构造，防止实例化
