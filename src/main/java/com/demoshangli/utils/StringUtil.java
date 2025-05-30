@@ -2,6 +2,9 @@ package com.demoshangli.utils;
 
 import java.io.UnsupportedEncodingException;
 
+/**
+ * 字符串工具类 - 提供常用字符串处理方法集合。
+ */
 public class StringUtil {
 
     // ========================= 空值处理 =========================
